@@ -1,0 +1,15 @@
+import random
+
+frage = input("gib eine frage ein:")
+antwort = random.randint(1,5)
+print("die antwort lautet:")
+if antwort == 1:
+    print("Ja!")
+elif antwort == 2:
+    print("Nein!")
+elif antwort == 3:
+    print("eher ja")
+elif antwort == 4:
+    print("eher nein")
+elif antwort == 5:
+    print("tut mir leid das musst du selbst entscheiden")
